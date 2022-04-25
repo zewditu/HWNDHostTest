@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zehailem\\source\\repos\\HWNDHostTest\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zehailem\\source\\repos\\HWNDHostTest\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zehailem\\source\\repos\\HWNDHostTest\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectName": "WpfApp1",
+        "projectPath": "C:\\Users\\zehailem\\source\\repos\\HWNDHostTest\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "packagesPath": "C:\\Users\\zehailem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zehailem\\source\\repos\\HWNDHostTest\\WpfApp1\\WpfApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zehailem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\zehailem\\Desktop\\Azure.ResourceManager.MachineLearningServices": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22154.4\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
