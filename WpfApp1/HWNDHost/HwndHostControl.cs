@@ -21,6 +21,10 @@ namespace HWNDHost
 
             if (childHandle != IntPtr.Zero)
             {
+               int GWL_STYLE = (-16);
+               uint WS_CHILD = 0x40000000;
+
+                SetWindowLong(childHandle, GWL_STYLE, WS_CHILD);
                 SetParent(childHandle, hwndParent.Handle);
             }
 
@@ -37,6 +41,9 @@ namespace HWNDHost
                 this.sourceAdapter = null;
             }
         }
+
+        [DllImport("user32.dll")]
+        static extern int SetWindowLong(IntPtr hWnd, int nIndex, UInt32 dwNewLong);
 
         [DllImport("user32.dll")]
         static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
